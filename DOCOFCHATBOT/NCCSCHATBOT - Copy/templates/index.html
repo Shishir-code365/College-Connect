@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>College Chatbot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      padding: 30px;
+    }
+
+    .chat-container {
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    label, h3 {
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    .response-block {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #ecf0f1;
+      border-radius: 8px;
+    }
+
+    .audio-block {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <h1>🎓 College Chatbot</h1>
+
+    <form method="POST">
+      <label for="user_query">Ask your question:</label>
+      <input type="text" id="user_query" name="user_query" required />
+      <button type="submit">Submit</button>
+    </form>
+
+    {% if user_query %}
+    <div class="response-block">
+      <h3>🔍 You asked:</h3>
+      <p>{{ user_query }}</p>
+    </div>
+
+    <div class="response-block">
+      <h3>🤖 LSTM Model Response:</h3>
+      <p>{{ chatbot_response_lstm }}</p>
+      <div class="audio-block">
+        <audio controls>
+          <source src="{{ url_for('play_response', model='lstm') }}" type="audio/mpeg" />
+          Your browser does not support audio.
+        </audio>
+      </div>
+    </div>
+
+    <div class="response-block">
+      <h3>📘 Naive Bayes Model Response:</h3>
+      <p>{{ chatbot_response_naive }}</p>
+      <div class="audio-block">
+        <audio controls>
+          <source src="{{ url_for('play_response', model='naive') }}" type="audio/mpeg" />
+          Your browser does not support audio.
+        </audio>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>

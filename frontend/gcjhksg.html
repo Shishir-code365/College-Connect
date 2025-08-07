@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .image{
+            height: 600px;
+        width: 100%;
+        border: 1px solid black;
+        background-image: url("https://nccs.edu.np/images/college/building.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      padding-top: 100px;
+        }
+        .box{
+            display: inline-block;
+            border: 1px solid;
+            height: 300px;
+            width: 300px;
+            margin: 10px ;
+            align-items: center;
+
+           
+
+        }
+        .black{
+            height: 100%;
+            width: 100%;
+        }
+        .text1{
+            height: 50px;
+            width: 150px;
+            background-color: thistle;
+            display: none;
+        }
+        .box:hover  .text1{
+            display: block;
+        }
+        .box:hover{
+             box-shadow: 1px 1px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="imagehalne">
+        <div class="image">
+
+            <div class="box" id="box2">
+                <img class="black"  src="https://media.edusanjal.com/gallery/NCCS_Cultural_Fiesta4.jpg" alt="">
+                <div class="text1">
+                    <p>NCCS Cultural Activities</p>
+                </div>
+              </div>
+      <div class="box" id="box2">
+        <img class="black"  src="https://www.nccs.edu.np/imagess/photo/DSC00036.JPG/hs" alt="">
+        <div class="text1">
+            <p>NCCS Sports</p>
+        </div>
+      </div>
+      <div class="box" id="box3">
+        <img class="black"  src="https://nccs.edu.np/images/college/slide/4.jpg" alt="">
+        <div class="text1">
+            <p>NCCS Seminars</p>
+        </div>
+      </div>
+        </div>
+          
+       
+    </div>
+</body>
+</html>

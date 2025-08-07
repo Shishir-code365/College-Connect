@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIM | NCCS College</title>
+    <link rel="shortcut icon" href="https://www.nccs.edu.np/images/college.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: #f4f8fb;
+            color: #232b38;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.2rem 4vw;
+            background: #093c73;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        .logo img { height: 60px; }
+        .navbar, .navbar2 {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+        .navbar li, .navbar2 li { position: relative; }
+        .navbar a, .navbar2 a {
+            text-decoration: none;
+            color: #f9fafb;
+            font-size: 1.08rem;
+            font-weight: 500;
+            padding: 8px 16px;
+            transition: color .2s;
+        }
+        .navbar a:hover, .navbar2 a:hover { color: #ffd600; }
+        .sub-drop, .drop-faculty {
+            position: absolute; left: 0; top: 110%;
+            background: #fff; color: #093c73;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 6px 24px rgba(9,60,115,0.15);
+            display: none; min-width: 180px; z-index: 100;
+        }
+        .about-drop:hover .sub-drop,
+        .academic-drop:hover .drop-faculty { display: block; }
+        .sub-drop li, .drop-faculty li { padding: 10px 20px; }
+        .sub-drop li a, .drop-faculty li a { color: #093c73; font-weight: 400; font-size: 1rem; }
+        .sub-drop li a:hover, .drop-faculty li a:hover { color: #ffd600; }
+
+        .main-content {
+            max-width: 1100px;
+            margin: 40px auto 0;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(9,60,115,0.07);
+            padding: 38px 30px;
+        }
+        h1, h2 { color: #093c73; }
+        h1 { font-size: 2.1rem; margin-bottom: 18px; }
+        h2 { margin-top: 28px; margin-bottom: 12px; }
+        ul { margin: 10px 0 10px 25px; }
+        table {
+            border-collapse: collapse;
+            margin: 14px 0 28px 0;
+            width: 95%;
+        }
+        th, td { border: 1px solid #e1e6ee; padding: 12px 15px; text-align: left; }
+        th { background: #eaf0fb; color: #093c73; }
+        .program-img {
+            max-width: 100%; border-radius: 15px; box-shadow: 0 2px 12px rgba(9,60,115,0.10); margin-bottom: 28px;
+        }
+        .program-flex {
+            display: flex;
+            gap: 42px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .program-desc { flex: 2; }
+        .program-side { flex: 1; min-width: 230px; }
+        @media (max-width: 900px) {
+            .main-content { padding: 18px 3vw;}
+            .project { flex-direction: column; gap: 1.2rem;}
+            .program-flex { flex-direction: column; gap: 12px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="project">
+        <div class="logo">
+            <img src="https://www.nccs.edu.np/images/college.png" alt="NCCS Logo">
+        </div>
+        <ul class="navbar">
+            <li class="about-drop"><a href="#">About</a>
+                <ul class="sub-drop">
+                    <li><a href="introduction.html" target="_blank">Introduction</a></li>
+                    <li><a href="message.html" target="_blank">Message from Principal</a></li>
+                </ul>
+            </li>
+            <li><a href="facilitieszz.html" target="_blank">Facilities</a></li>
+            <li class="academic-drop"><a href="#">Academics</a>
+                <ul class="drop-faculty">
+                    <li><a href="bim.html" target="_blank">BIM</a></li>
+                    <li><a href="bsc.csit.html" target="_blank">BSc.CSIT</a></li>
+                    <li><a href="bca.html" target="_blank">BCA</a></li>
+                </ul>
+            </li>
+            <li><a href="contactus.html" target="_blank">Contact</a></li>
+        </ul>
+        <ul class="navbar2">
+            <li><a href="fillform.html" target="_blank">Fill Form</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Bachelor of Information Management (BIM)</h1>
+        <div class="program-flex">
+            <div class="program-side">
+                <img src="https://nccs.edu.np/images/college/bim.jpg" class="program-img" alt="BIM NCCS">
+            </div>
+            <div class="program-desc">
+                <h2>Program's Objectives</h2>
+                <p>The mission of Faculty of Management's Bachelor in Information Management (BIM) program is to develop socially responsible, scientifically approached, result-oriented information technology (IT) professionals. The BIM program is designed to equip graduates with the skills and attributes required to be effective and efficient information technology professionals.</p>
+                <ul>
+                    <li>Prepare IT professionals proficient in computers and computational techniques to develop effective information systems.</li>
+                    <li>Develop skills in object-oriented software design methods and data management systems.</li>
+                    <li>Provide professional training by combining IT with managerial skills.</li>
+                    <li>Prepare students for postgraduate study in information management in Nepal or abroad.</li>
+                </ul>
+                <h2>Curricular Structure</h2>
+                <table>
+                    <tr>
+                        <th>Courses</th>
+                        <th>Hours</th>
+                    </tr>
+                    <tr>
+                        <td>Management Courses</td>
+                        <td>27 Credit Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Analytical and Support Courses</td>
+                        <td>27 Credit Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Information Technology and Computing Courses</td>
+                        <td>60 Credit Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Elective Courses</td>
+                        <td>6 Credit Hours</td>
+                    </tr>
+                    <tr>
+                        <td>Industrial Attachment Project</td>
+                        <td>6 Credit Hours</td>
+                    </tr>
+                </table>
+                <h2>Eligibility conditions for Admission</h2>
+                <ul>
+                    <li>12-year schooling or equivalent recognized by Tribhuvan University.</li>
+                    <li>At least second division in twelve-year schooling or equivalent.</li>
+                    <li>Complied with all application procedures.</li>
+                </ul>
+                <h2>Admission Criteria</h2>
+                <p>Applicants are required to appear in the entrance test conducted by the Faculty of Management. The test includes:</p>
+                <ul>
+                    <li>Verbal Ability</li>
+                    <li>Quantitative Ability</li>
+                    <li>Logical Reasoning</li>
+                    <li>General Awareness</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "gitlens.currentLine.enabled": false,
+  // If you also see author CodeLens you can disable that too:
+  "gitlens.codeLens.authors.enabled": false
+}

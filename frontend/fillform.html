@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Form | NCCS College</title>
+    <link rel="shortcut icon" href="https://www.nccs.edu.np/images/college.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; font-family: 'Montserrat', Arial, sans-serif; background: #f4f8fb; color: #232b38;}
+        .project { display: flex; align-items: center; justify-content: space-between; padding: 1.2rem 4vw; background: #093c73; box-shadow: 0 2px 12px rgba(0,0,0,0.06);}
+        .logo img { height: 60px; }
+        .navbar, .navbar2 { display: flex; list-style: none; gap: 2.5rem;}
+        .navbar li, .navbar2 li { position: relative;}
+        .navbar a, .navbar2 a { text-decoration: none; color: #f9fafb; font-size: 1.08rem; font-weight: 500; padding: 8px 16px; transition: color .2s;}
+        .navbar a:hover, .navbar2 a:hover { color: #ffd600;}
+        .sub-drop, .drop-faculty { position: absolute; left: 0; top: 110%; background: #fff; color: #093c73; border-radius: 0 0 8px 8px; box-shadow: 0 6px 24px rgba(9,60,115,0.15); display: none; min-width: 180px; z-index: 100;}
+        .about-drop:hover .sub-drop, .academic-drop:hover .drop-faculty { display: block;}
+        .sub-drop li, .drop-faculty li { padding: 10px 20px;}
+        .sub-drop li a, .drop-faculty li a { color: #093c73; font-weight: 400; font-size: 1rem;}
+        .sub-drop li a:hover, .drop-faculty li a:hover { color: #ffd600;}
+        .main-content { max-width: 700px; margin: 40px auto 0; background: #fff; border-radius: 18px; box-shadow: 0 8px 32px rgba(9,60,115,0.07); padding: 36px 30px;}
+        h1 { color: #093c73; text-align: center; font-size: 2.1rem;}
+        fieldset { border: none; margin-bottom: 22px;}
+        legend { font-weight: bold; color: #093c73; font-size: 1.1rem;}
+        label { display: block; margin-top: 18px; margin-bottom: 4px; font-weight: 500;}
+        input[type="text"], input[type="number"], select, input[type="file"] {
+            width: 97%; padding: 8px; border: 1px solid #d2d7e3; border-radius: 7px; font-size: 1rem; background: #f4f8fb;
+        }
+        input[type="radio"] { margin-left: 12px; }
+        input[type="submit"], input[type="reset"] { background: #093c73; color: #fff; border: none; border-radius: 7px; font-size: 1rem; padding: 8px 28px; margin-top: 20px; margin-right: 10px; cursor: pointer;}
+        input[type="submit"]:hover, input[type="reset"]:hover { background: #ffd600; color: #093c73;}
+        p { margin: 16px 0 28px 0; text-align: center;}
+        @media (max-width: 700px) {
+            .main-content { padding: 16px 3vw;}
+            .project { flex-direction: column; gap: 1.2rem;}
+        }
+    </style>
+</head>
+<body>
+    <div class="project">
+        <div class="logo">
+            <img src="https://www.nccs.edu.np/images/college.png" alt="NCCS Logo">
+        </div>
+        <ul class="navbar">
+            <li class="about-drop"><a href="#">About</a>
+                <ul class="sub-drop">
+                    <li><a href="introduction.html" target="_blank">Introduction</a></li>
+                    <li><a href="message.html" target="_blank">Message from Principal</a></li>
+                </ul>
+            </li>
+            <li><a href="facilitieszz.html" target="_blank">Facilities</a></li>
+            <li class="academic-drop"><a href="#">Academics</a>
+                <ul class="drop-faculty">
+                    <li><a href="bim.html" target="_blank">BIM</a></li>
+                    <li><a href="bsc.csit.html" target="_blank">BSc.CSIT</a></li>
+                    <li><a href="bca.html" target="_blank">BCA</a></li>
+                </ul>
+            </li>
+            <li><a href="contactus.html" target="_blank">Contact</a></li>
+        </ul>
+        <ul class="navbar2">
+            <li><a href="fillform.html" target="_blank">Fill Form</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Connect with NCCS</h1>
+        <p>Students are requested to fill the form with accurate data. The provided information will be reviewed by college administration. Selected students will be contacted soon.</p>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="Enter your first name" required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Enter your last name">
+                <label for="dob">Date of Birth</label>
+                <input type="text" id="dob" placeholder="YYYY-MM-DD">
+                <label for="number">Contact Number</label>
+                <input type="text" id="number" placeholder="98XXXXXXXX">
+                <label>Gender</label>
+                <input type="radio" name="Gender" value="M" checked> Male
+                <input type="radio" name="Gender" value="F"> Female
+                <input type="radio" name="Gender" value="Others"> Others
+            </fieldset>
+            <fieldset>
+                <legend>Academic Details</legend>
+                <label for="school">School Name</label>
+                <input type="text" id="school" placeholder="Enter your school name">
+                <label for="see">SEE GPA</label>
+                <input type="number" step="0.01" id="see">
+                <label for="college">College Name</label>
+                <input type="text" id="college" placeholder="Enter your college name">
+                <label for="plus2gpa">Aggregate GPA in +2</label>
+                <input type="number" step="0.01" id="plus2gpa">
+                <label for="iost">Marks obtained in IOST</label>
+                <input type="number" id="iost">
+                <label for="faculty">Select the Faculty</label>
+                <select id="faculty">
+                    <option>BSc.CSIT</option>
+                    <option>BIT</option>
+                    <option>BBM</option>
+                    <option>BHM</option>
+                    <option>BCA</option>
+                </select>
+                <label for="file">Upload Photo/Document</label>
+                <input type="file" id="file">
+            </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>

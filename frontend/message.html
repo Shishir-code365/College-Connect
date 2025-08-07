@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message | NCCS College</title>
+    <link rel="shortcut icon" href="https://www.nccs.edu.np/images/college.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; font-family: 'Montserrat', Arial, sans-serif; background: #f4f8fb; color: #232b38;}
+        .main-content { max-width: 1000px; margin: 40px auto 0; background: #fff; border-radius: 18px; box-shadow: 0 8px 32px rgba(9,60,115,0.07); padding: 38px 30px;}
+        h1, h2 { color: #093c73;}
+        h1 { font-size: 2.1rem; margin-bottom: 18px; text-align:center;}
+        h2 { margin-top: 26px; margin-bottom: 10px;}
+        .msg-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 34px; margin-bottom: 24px; align-items: center;}
+        .msg-img { width: 100%; border-radius: 14px; box-shadow: 0 2px 12px rgba(9,60,115,0.10);}
+        .project { display: flex; align-items: center; justify-content: space-between; padding: 1.2rem 4vw; background: #093c73; box-shadow: 0 2px 12px rgba(0,0,0,0.06);}
+        .logo img { height: 60px; }
+        .navbar, .navbar2 { display: flex; list-style: none; gap: 2.5rem;}
+        .navbar li, .navbar2 li { position: relative;}
+        .navbar a, .navbar2 a { text-decoration: none; color: #f9fafb; font-size: 1.08rem; font-weight: 500; padding: 8px 16px; transition: color .2s;}
+        .navbar a:hover, .navbar2 a:hover { color: #ffd600;}
+        .sub-drop, .drop-faculty { position: absolute; left: 0; top: 110%; background: #fff; color: #093c73; border-radius: 0 0 8px 8px; box-shadow: 0 6px 24px rgba(9,60,115,0.15); display: none; min-width: 180px; z-index: 100;}
+        .about-drop:hover .sub-drop, .academic-drop:hover .drop-faculty { display: block;}
+        .sub-drop li, .drop-faculty li { padding: 10px 20px;}
+        .sub-drop li a, .drop-faculty li a { color: #093c73; font-weight: 400; font-size: 1rem;}
+        .sub-drop li a:hover, .drop-faculty li a:hover { color: #ffd600;}
+        @media (max-width: 900px) {
+            .main-content { padding: 16px 3vw;}
+            .project { flex-direction: column; gap: 1.2rem;}
+            .msg-grid { grid-template-columns: 1fr;}
+        }
+    </style>
+</head>
+<body>
+    <div class="project">
+        <div class="logo">
+            <img src="https://www.nccs.edu.np/images/college.png" alt="NCCS Logo">
+        </div>
+        <ul class="navbar">
+            <li class="about-drop"><a href="#">About</a>
+                <ul class="sub-drop">
+                    <li><a href="introduction.html" target="_blank">Introduction</a></li>
+                    <li><a href="message.html" target="_blank">Message from Principal</a></li>
+                </ul>
+            </li>
+            <li><a href="facilitieszz.html" target="_blank">Facilities</a></li>
+            <li class="academic-drop"><a href="#">Academics</a>
+                <ul class="drop-faculty">
+                    <li><a href="bim.html" target="_blank">BIM</a></li>
+                    <li><a href="bsc.csit.html" target="_blank">BSc.CSIT</a></li>
+                    <li><a href="bca.html" target="_blank">BCA</a></li>
+                </ul>
+            </li>
+            <li><a href="contactus.html" target="_blank">Contact</a></li>
+        </ul>
+        <ul class="navbar2">
+            <li><a href="fillform.html" target="_blank">Fill Form</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Message from Principal</h1>
+        <div class="msg-grid">
+            <img class="msg-img" src="https://nccs.edu.np/images/college/principal.jpg" alt="Principal NCCS">
+            <div>
+                <h2>Welcome to National College of Computer Studies (NCCS)</h2>
+                <p>
+                Dear Students, Parents &amp; Guardians,<br><br>
+                Welcome to NCCS, centrally located at Paknajol, Kathmandu and affiliated to Tribhuvan University. We aim for educational excellence and provide outstanding programs in a safe, well-equipped, and peaceful environment. Regular follow-ups of student progress and individual attention are hallmarks of our teaching.<br><br>
+                Our facilities are modern, but what matters most is what happens within these walls, in classrooms and throughout our complex. We develop new programs and incorporate techniques to better prepare our students for opportunities both in Nepal and abroad.<br><br>
+                NCCS provides a superior education, helping students gain appreciation for learning, develop academic skills and knowledge for success, and cultivate leadership and dynamic personality. Our graduates acquire the characteristics needed for a successful post-graduate career and a happy, productive life.<br><br>
+                From the beginning, our aim has been to equip students with the highest quality education. Our achievements prove that all-round development counts, with students excelling academically and in extracurriculars. To support this, we've equipped our complex with all necessary facilities.<br><br>
+                Education is a shared responsibility between college and home. I invite all parents and guardians to visit often and actively participate in your ward's education. Together, we can achieve great things.<br><br>
+                Thank you for your interest in NCCS!<br><br>
+                Ganeshman Singh Basnyat
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

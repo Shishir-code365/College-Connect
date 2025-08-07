@@ -1,0 +1,165 @@
+tag,query,response
+greetings,hi,Hello! How can I assist you today?
+greetings,hi,Hello! How can I assist you today?
+greetings,hi,Hello! How can I assist you today?
+courses,what courses do you offer,"Our college offers a wide range of courses such as BCA, BBM, BHM, BSc.CSIT and BIM. For a comprehensive list of all the courses and programs, please visit our Academics page."
+courses,can you tell me about the programs available,"Our college offers a wide range of courses such as BCA, BBM, BHM, BSc.CSIT and BIM. For a comprehensive list of all the courses and programs, please visit our Academics page."
+courses,what are the majors and minors available at your college,"Our college offers a wide range of courses such as BCA, BBM, BHM, BSc.CSIT and BIM. For a comprehensive list of all the courses and programs, please visit our Academics page."
+admission,how can I apply for admission,"To apply, visit our official website, create an account on the admissions portal, and complete the online form. Upload required documents, pay the application fee, and submit before the deadline. For details, see our Admissions page. Or do visit college physically."
+admission,how can I apply for admission,"To apply, visit our official website, create an account on the admissions portal, and complete the online form. Upload required documents, pay the application fee, and submit before the deadline. For details, see our Admissions page. Or do visit college physically."
+admission,how can I apply for admission,"To apply, visit our official website, create an account on the admissions portal, and complete the online form. Upload required documents, pay the application fee, and submit before the deadline. For details, see our Admissions page. Or do visit college physically."
+contact,how can I contact the college," You can contact various departments at our college using the following information:  Reception: 01-5351711, Exam Department:01-4251711, Student Service: 01-5328807. For a complete list of contact details, please visit our Contact Us page."
+contact,how can I contact to reception of college," You can contact various departments at our college using the following information:Reception: 01-5351711, Exam Department:01-4251711 , Student Service: 01-5328807. For a complete list of contact details, please visit our Contact Us page."
+contact,how can I contact to exam department," You can contact various departments at our college using the following information:  Reception: 01-5351711, Exam Department:01-4251711 , Student Service: 01-5328807. For a complete list of contact details, please visit our Contact Us page."
+contact,contact for student service," You can contact various departments at our college using the following information: , Reception: 01-5351711, Exam Department: 01-4251711, Student Service: 01-5328807. For a complete list of contact details, please visit our Contact Us page."
+contact,how can I contact to admission office," You can contact various departments at our college using the following information: Reception: 01-4955458, Exam Department: 01-4986107, Student Service: 01-5328807. For a complete list of contact details, please visit our Contact Us page."
+fees,can you provide details about the fee structure,The fee structure varies by course and program. Please visit our website for detailed information or do visit college personally.
+fees,how much does it cost to attend your college,The fee structure varies by course and program. Please visit our website for detailed information or do visit college personally.
+location,location of NCCS,"It is located in Paknajol, Kathmandu, Nepal"
+location,address of NCCS,"It is located in Paknajol, Kathmandu, Nepal"
+location,can you tell me about the location of college,"It is located in Paknajol, Kathmandu, Nepal"
+affiliated,Is your college affiliated with any organizations or universities,NCCS has been offering 5 academic programs affiliated to Tribhuvan University (TU)
+affiliated,what affiliations does your college have,NCCS has been offering 5 academic programs affiliated to Tribhuvan University (TU)
+affiliated,which institutions is your college associated with,NCCS has been offering 5 academic programs affiliated to Tribhuvan University (TU)
+affiliated,Is NCCS College TU affiliated,NCCS has been offering 5 academic programs affiliated to Tribhuvan University (TU)
+reviews,Is NCCS College a good college,"NCCS has been the best choice for those students who aspire practical, value-based, quality education for the best result in their academic career. "
+fullform,NCCS stands for,"""NCCS"" stands for National College of Computer Studies."
+fullform,fullform of NCCS,"""NCCS"" stands for National College of Computer Studies."
+facilities,what facilities does NCCS offer,"NCCS offers a range of modern facilities to support students in their academic and personal development. Such as labs, canteen, transportation, projectors, sports and so on."
+mission,can you tell me about the mission of college,"Our mission is to build strong partnerships with schools, organizations, and communities to improve education in schools and workplaces."
+vision,what is the vision of your college,"Our vision is to be a nationally recognized, innovative institution known for excellence in teaching and learning, fostering socially responsible, entrepreneurial global citizens."
+founder,who is the founder of NCCS,Prajwal Baniya Chettri is the founder of NCCS. 
+car or bike,can I bring a car or bike to campus,"yes,you are allowed to bring your vehicles."
+car or bike,can I bring a car in college,"yes,you are allowed to bring your vehicles."
+car or bike,can I bring a bike in college,"yes,you are allowed to bring your vehicles."
+car or bike,can I bring a scooty in college,"yes,you are allowed to bring your vehicles."
+transportation,what transportation options are available on campus,"Yes, NCCS has a fleet of buses for student transportation, with experienced drivers, caretakers, and security guards."
+transportation,Is transportation available in college,"Yes, NCCS has a fleet of buses for student transportation, with experienced drivers, caretakers, and security guards."
+parking,Is parking available on college,"Yes,parking permits are available for students, teachers and staffs of college"
+extracurricular activities,what extracurricular activities are available in college,"In college, a variety of extracurricular activities should be available such as workshop, college tour, exhibition, quiz, academic clubs, cultural activites and so on"
+extracurricular activities,does college offer extracurricular activities ,"In college, a variety of extracurricular activities should be available such as workshop, college tour, exhibition, quiz, academic clubs, cultural activites and so on"
+safe,Is NCCS college safe,"Yes, the college is safe with 24/7 security, and guards at the gates. "
+guards,Are there security guards present at the college,"Yes, the college has security guards stationed at the Front and Rear Gates, ensuring 24-hour security ."
+guards,Is there any guards in college gate,"Yes, the college has security guards stationed at the Front and Rear Gates, ensuring 24-hour security  ."
+wifi,Is there wifi on campus,"Yes, we offer campus-wide Wi-Fi coverage, ensuring students have reliable internet access in classrooms, residence halls, and common areas."
+wifi,Is there Wi-Fi on campus,"Yes, we offer campus-wide Wi-Fi coverage, ensuring students have reliable internet access in classrooms, residence halls, and common areas."
+wifi,what about wifi,"Yes, we offer campus-wide Wi-Fi coverage, ensuring students have reliable internet access in classrooms, residence halls, and common areas."
+printing,can I print on campus,Printing services are available on campus at various locations. Students can print documents from computer labs or personal devices using our wireless printing service.
+college timings,what are the college hours,"The college hours are as follows: +2 Management classes have mornings shift from 6:00 AM to 10:00 AM while the bachelor prograns have the day shifts from 11:00 AM to 4:30 PM. For Bachelor  programs, BBM, BCA, BIM, BHM and Bsc.CSIT  classes might run the classes in the morning shift in the senior semesters. The college observes holidays on weekends and festivals."
+college timings,when does the college open/close,"The college hours are as follows: +2 Management classes have mornings shift from 6:00 AM to 10:00 AM while the bachelor prograns have the day shifts from 11:00 AM to 4:30 PM. For Bachelor  programs, BBM, BCA, BIM, BHM and Bsc.CSIT  classes might run the classes in the morning shift in the senior semesters. The college observes holidays on weekends and festivals."
+college timings,when does college start,"The college hours are as follows: +2 Management classes have mornings shift from 6:00 AM to 10:00 AM while the bachelor prograns have the day shifts from 11:00 AM to 4:30 PM. For Bachelor  programs, BBM, BCA, BIM, BHM and Bsc.CSIT  classes might run the classes in the morning shift in the senior semesters. The college observes holidays on weekends and festivals."
+weekends,Is the college open on weekends,"No, the college is closed on weekends."
+vacations,Is college open on vacations,"No, the college remains closed on vacations."
+buses,does college have buses,"Yes, NCCS has a fleet of buses for student transportation ."
+library,Is there a library or not,"Yes, the college has a well-equipped library with a wide range of books, journals, and digital resources to support students' academic needs. It provides a quiet space for studying and research, with access to computers and internet services."
+library,how about library,"Yes, the college has a well-equipped library with a wide range of books, journals, and digital resources to support students' academic needs. It provides a quiet space for studying and research, with access to computers and internet services."
+library,does NCCS have library,"Yes, the college has a well-equipped library with a wide range of books, journals, and digital resources to support students' academic needs. It provides a quiet space for studying and research, with access to computers and internet services."
+auditorium hall,does NCCS have an auditorium hall,"Yes, NCCS has a multi-purpose auditorium with modern equipment, located in the semi-basement, with a 450-seat capacity. It hosts seminars, orientations, plays, and speaker presentations."
+hostel,does NCCS have hostel,NCCS does not have its own hostel facilities. 
+hostel,what about hostel,NCCS does not have its own hostel facilities. 
+about NCCS,tell me about NCCS,"National College of Computer Studies (NCCS) in Nepal, an ISO 9001:2015 certified institution, offers quality education in  Management and Information Technology. With national and international collaborations, NCCS focuses on experiential learning to develop responsible and team-oriented individuals for a promising future."
+about NCCS,what makes NCCS unique,"National College of Computer Studies (NCCS) in Nepal, an ISO 9001:2015 certified institution, offers quality education in Management and Information Technology. With national and international collaborations, NCCS focuses on experiential learning to develop responsible and team-oriented individuals for a promising future."
+about NCCS,why NCCS,"National College of Computer Studies (NCCS) in Nepal, an ISO 9001:2015 certified institution, offers quality education in Management and Information Technology. With national and international collaborations, NCCS focuses on experiential learning to develop responsible and team-oriented individuals for a promising future."
+benefits,what are the benefits of studying at NCCS,"Studying at NCCS offers the benefits of quality education, international collaborations, experienced faculty, a focus on experiential learning, and a commitment to lifelong learning, all aimed at preparing students for a successful future."
+publications,Is there any publications of NCCS,"Yes. Here are some related to publications at NCCS such as NCCS newsletter, NCCS education hub, and NCCS research journal(SRJ)."
+NCCS newsletter,tell about NCCS newsletter,"The NCCS Newsletter features news, views, ongoing educational activities, and short articles by faculty, guardians, educationists, entrepreneurs, and students. It covers various activities conducted within the college."
+NCCS newsletter,what is NCCS newsletter,"The NCCS Newsletter features news, views, ongoing educational activities, and short articles by faculty, guardians, educationists, entrepreneurs, and students. It covers various activities conducted within the college."
+NCCS education hub,tell me about NCCS education hub,"The NCCS Education Hub focuses on research-based articles related to education, health, and environment. It also includes short articles on diverse themes, poems, songs, ghazals, essays, and short stories."
+NCCS education hub,what is NCCS education hub,"The NCCS Education Hub focuses on research-based articles related to education, health, and environment. It also includes short articles on diverse themes, poems, songs, ghazals, essays, and short stories."
+NCCS research journal,what is NCCS research journal,"The NCCS Research Journal (SRJ) is a blind peer-reviewed multidisciplinary journal. It provides a scholarly platform for faculty, students, and external researchers to publish their research-based articles, ensuring quality and authenticity. The SRJ is available as a valuable resource at the NCCS library."
+NCCS research journal,tell me about NCCS research journal,"The NCCS Research Journal (SRJ) is a blind peer-reviewed multidisciplinary journal. It provides a scholarly platform for faculty, students, and external researchers to publish their research-based articles, ensuring quality and authenticity. The SRJ is available as a valuable resource at the NCCS library."
+health services,Is there a health service in college,"Yes, NCCS has a dedicated Nursing Station on campus that serves as an infirmary providing essential health services to students and staff."
+medical services,what medical services are offered,"NCCS offers first-aid treatment, blood pressure screening, and basic health care services overseen by a full-time nurse."
+mental health services,Are mental health services available,"NCCS provides access to mental health services through counseling sessions facilitated by qualified professionals, ensuring support for students' emotional well-being."
+counseling,how do I access counseling services,Students can access counseling services at NCCS by scheduling appointments through the Student Affairs Office or directly contacting the Counseling Center on campus.
+fitness program,Is there a fitness program or wellness activities,"NCCS offers a variety of wellness activities and fitness programs to promote physical health among students, including yoga classes, sports facilities, and organized fitness sessions."
+teaching methodologies,what teaching methodologies are used at NCCS,"NCCS adopts effective, scientific, and innovative teaching methodologies, integrating ICT in teaching practices and utilizing the latest international-standard pedagogy."
+management team,Who are the members of the management team at NCCS College,"The management team at NCCS College consists of Prajwol Baniya Chhetri as the Campus Chief, Rajan Poudel serving as the Program Coordinator, and  fulfilling the role of Program Director. Sarita Shakya Pradhan manages International Relations, while Ravi Chapagain oversees academic matters for university programs and Himlal Pokharel heads the +2 Programs."
+available sports,what sports facilities are available at NCCS,"Our college offers a variety of sports facilities such as basketball, table tennis, badminton, chess, and football."
+sports club,Are there any sports clubs  ,"Yes, NCCS has several sports clubs that students can join, including clubs for basketball, table tennis, badminton, chess, and football."
+dress code,Is there a dress code policy at the NCCS college,"Yes, the college has a dress code which is compulsory to wear."
+dress code,Is college dress is compulsory,"Yes, the college has a dress code which is compulsory to wear."
+attendance,what are the rules about attendance,"Attendance is mandatory at the college, with a minimum requirement of 75% attendance in all classes to be eligible to sit for exams."
+mobile phones,can students use mobile phones during classes ,The use of mobile phones during classes at NCCS is generally discouraged unless it's for academic purposes permitted by the instructor
+mobile phones,can I use mobile phones in class,The use of mobile phones during classes at NCCS is generally discouraged unless it's for academic purposes permitted by the instructor
+cheating,Is cheating allowed during exams at NCCS,"Cheating during exams is strictly prohibited at NCCS. Any form of dishonesty, including copying, using unauthorized materials, or communicating with others, can result in severe penalties, such as failing the exam or even academic suspension."
+eating in class,can student eat during class,"Eating during class at NCCS is generally discouraged to maintain a focused learning environment. However, specific guidelines may vary by instructor or department"
+drinking water in class,Is drinking water allowed during class at NCCS,"Drinking water is generally permitted during class at NCCS to ensure students stay hydrated. However, it should be done discreetly and without causing disturbance to others."
+bunking,Is bunking class or college is allowed,Bunking classes or college at NCCS is strongly discouraged. Regular attendance is essential for academic success and may be mandatory for eligibility to sit for exams or receive course credits.
+bunking,Is bunking class allowed,Bunking classes or college at NCCS is strongly discouraged. Regular attendance is essential for academic success and may be mandatory for eligibility to sit for exams or receive course credits.
+bunking,Is bunking college is allowed,Bunking classes or college at NCCS is strongly discouraged. Regular attendance is essential for academic success and may be mandatory for eligibility to sit for exams or receive course credits.
+miss class,can I miss the class,yes. NCCS understands that students may occasionally miss classes due to illness or emergencies.
+about users,what is my name,Sorry i cannot recognize you till now...
+about users,my location,Sorry i cannot recognize you till now...
+about users,my faculty,Sorry i cannot recognize you till now...
+about users,my class,Sorry i cannot recognize you till now...
+about users,my section,Sorry i cannot recognize you till now...
+about users,my phone number,Sorry i cannot recognize you till now...
+established,when it was established,It was established in 1999 AD
+established,when NCCS was established,It was established in 1999 AD
+established,when NCCS begin,It was established in 1999 AD
+established,when was this institute establish,It was established in 1999 AD
+purpose,what can you do,I am NCCS College Chatbot
+purpose,who are you,I am NCCS College Chatbot
+purpose,what are you here for,I am NCCS College Chatbot
+purpose,Are you bot,I am NCCS College Chatbot
+purpose,what is your name,I am NCCS College Chatbot
+purpose,Is your name chatbot,I am NCCS College Chatbot
+canteen,Is there a canteen available,"yes, there is a well-maintained and hygienic canteen inside the college with a good environment and quality fresh food."
+canteen,Does NCCS have canteen,"yes, there is a well-maintained and hygienic canteen inside the college with a good environment and quality fresh food."
+eligibility,what is the eligibility for bca,"Typically, 10+2 with 45-50% marks is required for BCA."
+duration,how long is the bca course,"The BCA course is 4 years long, divided into 8 semesters."
+subjects,what are the subjects in bca,"Subjects include programming, databases, and networking."
+fees,what is the fee structure for bca,"BCA fees vary but generally range from 40,000 to 70,000 per semester."
+career,what are the career options after bca,"Careers include software developer, data analyst, and more."
+higher_study,what can i do after bca,"You can pursue MCA, MBA, or certifications in AI and Data Science."
+skills,what skills will i learn in bca,"You will learn programming, problem-solving, and software development."
+scope,is bca a good career option,"Yes, BCA offers great opportunities in the IT sector."
+admission,how to get admission in bca,Admission usually requires 10+2 and may involve an entrance exam.
+programming,what languages are taught in bca,"You will learn languages like C, C++, Java, and Python."
+future,what is the future of bca graduates,BCA graduates have strong prospects in software and IT sectors.
+internship,are internships provided during bca,"Yes, many colleges offer internships as part of the BCA curriculum."
+job_roles,what jobs can i get after bca,"You can work as a Web Developer, Software Engineer, or System Analyst."
+salary,what is the average salary after bca,"The average salary ranges from 50,000 to 100,000 per year based on skills and location."
+difficulty,is bca difficult,BCA is manageable if you have an interest in computers and programming.
+difficulty,is bca hard,BCA is manageable if you have an interest in computers and programming.
+coding,is coding necessary for bca,"Yes, coding is a significant part of the BCA curriculum"
+networking,does bca cover networking,"Yes, BCA includes networking fundamentals and data communication."
+placements,do bca colleges offer placements,Many colleges have placement cells that assist BCA students in getting jobs.
+scholarship,are scholarships available for bca,"Yes, many institutions offer scholarships based on merit and need."
+attendance,is attendance compulsory in bca,"Yes, most colleges have a minimum attendance requirement."
+labs,are there practical labs in bca,"Yes, BCA includes practical labs for programming, databases, and networking."
+distance,can i do bca through distance learning,"Yes, many universities offer BCA as a distance learning course."
+coding_skills,will bca improve my coding skills,"Yes, BCA is designed to enhance your programming and problem-solving skills."
+online_bca,can i do bca online,"Yes, several universities provide online BCA courses."
+entrance_exam,is there an entrance exam for bca,Some colleges require an entrance exam for BCA admission
+project,do i need to do a project in bca,"BCA program includes 3 projects where project I is in 4th semester, project II in 6th semester and project III in 8th semester."
+project,how many projects are there in bca,"BCA program includes 3 projects where project I is in 4th semester, project II in 6th semester and project III in 8th semester."
+scope_abroad,can i work abroad after bca,can i work abroad after bca
+transfer,can i transfer to another college during bca,"Yes, transfers are possible, subject to the institution's policies."
+commerce,can commerce students do bca,"Yes, commerce students can pursue BCA if they meet the eligibility criteria."
+syllabus,what is the syllabus of bca,the syllabus of bca vary according to the semsester.For more details visit BCA website.
+certified,is bca a certified course,"Yes, BCA is a recognized undergraduate degree in computer applications."
+web_dev,does bca cover web development,"Yes, BCA includes HTML, CSS, JavaScript, and PHP for web development."
+benefits,what are the benefits of doing bca,"BCA offers a solid foundation in IT, making you job-ready in the tech industry."
+affordable,is bca an affordable course,"Yes, compared to engineering, BCA is generally more affordable."
+dropout,can i dropout from bca,"Yes, but you should consider the consequences before making the decision."
+phd,can i pursue a phd after bca,You need a Master's degree like MCA before pursuing a PhD in related fields.
+difference,difference between bca and bsc it,"BCA focuses more on application development, while B.Sc IT emphasizes theoretical knowledge."
+study_material,are study materials provided in bca,"Yes, most colleges provide study materials, and you can also find resources online."
+transferable_skills,does bca provide transferable skills,"Yes, skills like problem-solving, teamwork, and critical thinking are developed."
+alumni,are there successful bca alumni,"Yes, many BCA graduates have gone on to have successful careers in IT and entrepreneurship."
+timing,what is the class timing for bca,Class timings vary by college but most of the classes are in the morning shifts.
+group_project,are there group projects in bca,"Yes, group projects are common to enhance teamwork and collaboration skills."
+programming_certification,can i get certified in programming during bca,"Yes, you can pursue certifications like Java, Python, or C++ alongside your BCA."
+degree,"is bca a degree or diploma	",BCA is a full-fledged undergraduate degree.
+self_learning,can i learn bca subjects on my own,"Yes, with online resources, you can self-study BCA subjects."
+entrance_difficulty,is bca entrance exam difficult,"The difficulty level varies, but it generally tests basic computer and math skills."
+bca_1st_semester,How many subjects are there in 1st semester  ,"In the first semester of BCA, students typically study subjects like Computer Fundamentals, Digital Logic, English, Sociology, and Technology Mathematics."
+bca_2nd_semester,How many subjects are there in 2nd semester  ,"In the second semester of BCA, students typically study C Programming, English, Microprocessor, Mathematics, and Financial Accounting."
+bca_3rd_semester,How many subjects are there in 3rd semester  ,"In the third semester of BCA, students focus on Web Technology, System Analysis and Design, Probability and Statistics, Object-Oriented Programming (OOP) in Java, and Data Structure and Algorithm."
+bca_4th_semester,How many subjects are there in 4th semester  ,"In the fourth semester of the BCA program, students study Database Management Systems (DBMS), Numerical Methods, Operating Systems (OS), Scripting Languages, and Software Engineering, along with Project I."
+bca_5th_semester,How many subjects are there in 5th semester  ,"In the fifth semester of BCA, the curriculum includes Database Management Systems (DBMS), Numerical Methods, Operating Systems, Scripting Languages, Software Engineering, and Project I continuation."
+bca_6th_semester,How many subjects are there in 6th semester  ,"In the sixth semester of BCA, students study Advanced Java, Distributed Systems, Network Programming, Mobile Programming, Applied Economics, and work on Project II"
+bca_7th_semester,How many subjects are there in 7th semester  ,"In the seventh semester of BCA, the focus shifts to advanced topics like Cloud Computing, E-Governance, and Artificial Intelligence ("
+bca_8th_semester,How many subjects are there in 8th semester  ,"In the eighth semester of BCA, students study Multimedia Systems, Database Programming, Operations Research, along with their final project."

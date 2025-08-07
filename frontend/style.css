@@ -1,0 +1,23 @@
+.destination h2{
+    margin-bottom:40px ;
+}
+.destination-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.destination-item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.destination-item {
+    text-align: left;
+}
+.destination-item h3{
+    font-size: 2rem;
+}
+.destination-item p{
+    font-size: 1.2rem;
+}

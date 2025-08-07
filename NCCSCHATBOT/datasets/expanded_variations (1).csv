@@ -1,0 +1,301 @@
+tag,query,response
+greetings,Hi,Hello! How can I assist you today?
+greetings,Hello,Hello! How can I assist you today?
+greetings,Hey there,Hello! How can I assist you today?
+greetings,Good morning,Hello! How can I assist you today?
+greetings,Good evening,Hello! How can I assist you today?
+greetings,How are you?,Hello! How can I assist you today?
+greetings,What's up?,Hello! How can I assist you today?
+greetings,Greetings!,Hello! How can I assist you today?
+greetings,Nice to meet you,Hello! How can I assist you today?
+greetings,Hey NCCS,Hello! How can I assist you today?
+courses,What courses are available?,We offer various undergraduate and graduate courses at NCCS.
+courses,Tell me about your courses,We offer various undergraduate and graduate courses at NCCS.
+courses,Which programs do you offer?,We offer various undergraduate and graduate courses at NCCS.
+courses,List of courses at NCCS?,We offer various undergraduate and graduate courses at NCCS.
+courses,Courses in NCCS,We offer various undergraduate and graduate courses at NCCS.
+courses,Programs offered by NCCS,We offer various undergraduate and graduate courses at NCCS.
+courses,Available departments?,We offer various undergraduate and graduate courses at NCCS.
+courses,What can I study at NCCS?,We offer various undergraduate and graduate courses at NCCS.
+courses,NCCS programs?,We offer various undergraduate and graduate courses at NCCS.
+courses,Academic offerings?,We offer various undergraduate and graduate courses at NCCS.
+admission,How to apply?,You can find admission details on our official website or contact the admin office.
+admission,Admission process?,You can find admission details on our official website or contact the admin office.
+admission,How can I get admitted?,You can find admission details on our official website or contact the admin office.
+admission,What are the admission requirements?,You can find admission details on our official website or contact the admin office.
+admission,NCCS admission criteria?,You can find admission details on our official website or contact the admin office.
+admission,When is the admission open?,You can find admission details on our official website or contact the admin office.
+admission,Admission details please,You can find admission details on our official website or contact the admin office.
+admission,Can I apply online?,You can find admission details on our official website or contact the admin office.
+admission,How to get admission in NCCS?,You can find admission details on our official website or contact the admin office.
+admission,NCCS admission info?,You can find admission details on our official website or contact the admin office.
+contact,How do I contact NCCS?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,NCCS phone number?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Email of NCCS?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Contact info?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Can I talk to someone at NCCS?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,How to reach NCCS?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Where can I call for help?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Support phone number?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,College contact?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,NCCS helpline?,You can reach us at 01-123456 or info@nccs.edu.np.
+fees,How much is the fee?,Our fee structure varies by program. Please check our website for detailed info.
+fees,Fee structure of NCCS?,Our fee structure varies by program. Please check our website for detailed info.
+fees,What is the tuition fee?,Our fee structure varies by program. Please check our website for detailed info.
+fees,Cost of studying at NCCS?,Our fee structure varies by program. Please check our website for detailed info.
+fees,NCCS course fees?,Our fee structure varies by program. Please check our website for detailed info.
+fees,What are the charges?,Our fee structure varies by program. Please check our website for detailed info.
+fees,Total fees per semester?,Our fee structure varies by program. Please check our website for detailed info.
+fees,NCCS program cost?,Our fee structure varies by program. Please check our website for detailed info.
+fees,Is there any admission fee?,Our fee structure varies by program. Please check our website for detailed info.
+fees,College fees?,Our fee structure varies by program. Please check our website for detailed info.
+location,Where is NCCS located?,"NCCS College is located in Paknajol, Kathmandu."
+location,College location?,"NCCS College is located in Paknajol, Kathmandu."
+location,NCCS address?,"NCCS College is located in Paknajol, Kathmandu."
+location,How to reach NCCS?,"NCCS College is located in Paknajol, Kathmandu."
+location,NCCS map?,"NCCS College is located in Paknajol, Kathmandu."
+location,Where can I find NCCS?,"NCCS College is located in Paknajol, Kathmandu."
+location,Location of NCCS college?,"NCCS College is located in Paknajol, Kathmandu."
+location,College situated where?,"NCCS College is located in Paknajol, Kathmandu."
+location,College directions?,"NCCS College is located in Paknajol, Kathmandu."
+location,College in which city?,"NCCS College is located in Paknajol, Kathmandu."
+greetings,Hi,Hello! How can I assist you today?
+greetings,Hello,Hello! How can I assist you today?
+greetings,Hey there,Hello! How can I assist you today?
+greetings,Good morning,Hello! How can I assist you today?
+greetings,Good evening,Hello! How can I assist you today?
+greetings,How are you?,Hello! How can I assist you today?
+greetings,What's up?,Hello! How can I assist you today?
+greetings,Greetings!,Hello! How can I assist you today?
+greetings,Nice to meet you,Hello! How can I assist you today?
+greetings,Hey NCCS,Hello! How can I assist you today?
+courses,What courses are available?,We offer various undergraduate and graduate courses at NCCS.
+courses,Tell me about your courses,We offer various undergraduate and graduate courses at NCCS.
+courses,Which programs do you offer?,We offer various undergraduate and graduate courses at NCCS.
+courses,List of courses at NCCS?,We offer various undergraduate and graduate courses at NCCS.
+courses,Courses in NCCS,We offer various undergraduate and graduate courses at NCCS.
+courses,Programs offered by NCCS,We offer various undergraduate and graduate courses at NCCS.
+courses,Available departments?,We offer various undergraduate and graduate courses at NCCS.
+courses,What can I study at NCCS?,We offer various undergraduate and graduate courses at NCCS.
+courses,NCCS programs?,We offer various undergraduate and graduate courses at NCCS.
+courses,Academic offerings?,We offer various undergraduate and graduate courses at NCCS.
+admission,How to apply?,You can find admission details on our official website or contact the admin office.
+admission,Admission process?,You can find admission details on our official website or contact the admin office.
+admission,How can I get admitted?,You can find admission details on our official website or contact the admin office.
+admission,What are the admission requirements?,You can find admission details on our official website or contact the admin office.
+admission,NCCS admission criteria?,You can find admission details on our official website or contact the admin office.
+admission,When is the admission open?,You can find admission details on our official website or contact the admin office.
+admission,Admission details please,You can find admission details on our official website or contact the admin office.
+admission,Can I apply online?,You can find admission details on our official website or contact the admin office.
+admission,How to get admission in NCCS?,You can find admission details on our official website or contact the admin office.
+admission,NCCS admission info?,You can find admission details on our official website or contact the admin office.
+contact,How do I contact NCCS?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,NCCS phone number?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Email of NCCS?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Contact info?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Can I talk to someone at NCCS?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,How to reach NCCS?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Where can I call for help?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,Support phone number?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,College contact?,You can reach us at 01-123456 or info@nccs.edu.np.
+contact,NCCS helpline?,You can reach us at 01-123456 or info@nccs.edu.np.
+fees,How much is the fee?,Our fee structure varies by program. Please check our website for detailed info.
+fees,Fee structure of NCCS?,Our fee structure varies by program. Please check our website for detailed info.
+fees,What is the tuition fee?,Our fee structure varies by program. Please check our website for detailed info.
+fees,Cost of studying at NCCS?,Our fee structure varies by program. Please check our website for detailed info.
+fees,NCCS course fees?,Our fee structure varies by program. Please check our website for detailed info.
+fees,What are the charges?,Our fee structure varies by program. Please check our website for detailed info.
+fees,Total fees per semester?,Our fee structure varies by program. Please check our website for detailed info.
+fees,NCCS program cost?,Our fee structure varies by program. Please check our website for detailed info.
+fees,Is there any admission fee?,Our fee structure varies by program. Please check our website for detailed info.
+fees,College fees?,Our fee structure varies by program. Please check our website for detailed info.
+location,Where is NCCS located?,"NCCS College is located in Paknajol, Kathmandu."
+location,College location?,"NCCS College is located in Paknajol, Kathmandu."
+location,NCCS address?,"NCCS College is located in Paknajol, Kathmandu."
+location,How to reach NCCS?,"NCCS College is located in Paknajol, Kathmandu."
+location,NCCS map?,"NCCS College is located in Paknajol, Kathmandu."
+location,Where can I find NCCS?,"NCCS College is located in Paknajol, Kathmandu."
+location,Location of NCCS college?,"NCCS College is located in Paknajol, Kathmandu."
+location,College situated where?,"NCCS College is located in Paknajol, Kathmandu."
+location,College directions?,"NCCS College is located in Paknajol, Kathmandu."
+location,College in which city?,"NCCS College is located in Paknajol, Kathmandu."
+location,Where is NCCS located?,This is information about location in NCCS.
+location,College location?,This is information about location in NCCS.
+location,NCCS address?,This is information about location in NCCS.
+location,How to reach NCCS?,This is information about location in NCCS.
+location,NCCS map?,This is information about location in NCCS.
+location,Where can I find NCCS?,This is information about location in NCCS.
+location,Location of NCCS college?,This is information about location in NCCS.
+location,College situated where?,This is information about location in NCCS.
+location,College directions?,This is information about location in NCCS.
+location,College in which city?,This is information about location in NCCS.
+affiliated,Is NCCS affiliated?,This is information about affiliated in NCCS.
+affiliated,Affiliation of NCCS?,This is information about affiliated in NCCS.
+affiliated,Which university is NCCS under?,This is information about affiliated in NCCS.
+affiliated,Is NCCS TU affiliated?,This is information about affiliated in NCCS.
+affiliated,Is NCCS private or public?,This is information about affiliated in NCCS.
+affiliated,NCCS board affiliation?,This is information about affiliated in NCCS.
+affiliated,Affiliated to which board?,This is information about affiliated in NCCS.
+affiliated,NCCS academic affiliation?,This is information about affiliated in NCCS.
+affiliated,University NCCS belongs to?,This is information about affiliated in NCCS.
+affiliated,NCCS accreditation?,This is information about affiliated in NCCS.
+reviews,NCCS college reviews?,This is information about reviews in NCCS.
+reviews,Is NCCS good?,This is information about reviews in NCCS.
+reviews,How is NCCS rated?,This is information about reviews in NCCS.
+reviews,Student reviews on NCCS?,This is information about reviews in NCCS.
+reviews,Public opinion on NCCS?,This is information about reviews in NCCS.
+reviews,What do students say about NCCS?,This is information about reviews in NCCS.
+reviews,Feedback for NCCS college?,This is information about reviews in NCCS.
+reviews,How's the environment in NCCS?,This is information about reviews in NCCS.
+reviews,Is NCCS worth it?,This is information about reviews in NCCS.
+reviews,NCCS testimonials?,This is information about reviews in NCCS.
+fullform,What does NCCS stand for?,"""NCCS"" stands for National College of Computer Studies."
+fullform,Fullform of NCCS?,"""NCCS"" stands for National College of Computer Studies."
+fullform,Expand NCCS?,"""NCCS"" stands for National College of Computer Studies."
+fullform,NCCS meaning?,"""NCCS"" stands for National College of Computer Studies."
+fullform,What is the full form of NCCS?,"""NCCS"" stands for National College of Computer Studies."
+fullform,What is NCCS short for?,"""NCCS"" stands for National College of Computer Studies."
+fullform,NCCS abbreviation?,"""NCCS"" stands for National College of Computer Studies."
+fullform,What is NCCS expanded as?,"""NCCS"" stands for National College of Computer Studies."
+fullform,Name expansion of NCCS?,"""NCCS"" stands for National College of Computer Studies."
+fullform,NCCS ka full form?,"""NCCS"" stands for National College of Computer Studies."
+facilities,What facilities does NCCS provide?,This is information about facilities in NCCS.
+facilities,List of facilities in NCCS?,This is information about facilities in NCCS.
+facilities,Campus facilities in NCCS?,This is information about facilities in NCCS.
+facilities,Does NCCS have a canteen?,This is information about facilities in NCCS.
+facilities,What services are available in NCCS?,This is information about facilities in NCCS.
+facilities,Facilities for students?,This is information about facilities in NCCS.
+facilities,Is there a library in NCCS?,This is information about facilities in NCCS.
+facilities,Does NCCS provide internet?,This is information about facilities in NCCS.
+facilities,NCCS infrastructure?,This is information about facilities in NCCS.
+facilities,NCCS hostel facilities?,This is information about facilities in NCCS.
+mission,What is the mission of NCCS?,This is information about mission in NCCS.
+mission,NCCS mission statement?,This is information about mission in NCCS.
+mission,Goal of NCCS?,This is information about mission in NCCS.
+mission,What does NCCS aim to do?,This is information about mission in NCCS.
+mission,College mission?,This is information about mission in NCCS.
+mission,Why was NCCS established?,This is information about mission in NCCS.
+mission,What is NCCS purpose?,This is information about mission in NCCS.
+mission,NCCS college aim?,This is information about mission in NCCS.
+mission,Main focus of NCCS?,This is information about mission in NCCS.
+mission,Mission objectives of NCCS?,This is information about mission in NCCS.
+vision,What is the vision of NCCS?,This is information about vision in NCCS.
+vision,NCCS future goals?,This is information about vision in NCCS.
+vision,College vision statement?,This is information about vision in NCCS.
+vision,What is NCCS trying to achieve?,This is information about vision in NCCS.
+vision,Vision of NCCS college?,This is information about vision in NCCS.
+vision,Long term goal of NCCS?,This is information about vision in NCCS.
+vision,Where does NCCS see itself?,This is information about vision in NCCS.
+vision,Future mission of NCCS?,This is information about vision in NCCS.
+vision,NCCS development vision?,This is information about vision in NCCS.
+vision,What NCCS envisions?,This is information about vision in NCCS.
+founder,Who is the founder of NCCS?,This is information about founder in NCCS.
+founder,Founder of the college?,This is information about founder in NCCS.
+founder,Who established NCCS?,This is information about founder in NCCS.
+founder,Who started NCCS?,This is information about founder in NCCS.
+founder,NCCS college founder name?,This is information about founder in NCCS.
+founder,Who created NCCS?,This is information about founder in NCCS.
+founder,Founder member of NCCS?,This is information about founder in NCCS.
+founder,History of NCCS founder?,This is information about founder in NCCS.
+founder,Who began NCCS?,This is information about founder in NCCS.
+founder,Who built NCCS?,This is information about founder in NCCS.
+car or bike,Can I bring my bike to NCCS?,This is information about car or bike in NCCS.
+car or bike,Bike parking available?,This is information about car or bike in NCCS.
+car or bike,Can students park cars?,This is information about car or bike in NCCS.
+car or bike,Does NCCS allow bikes?,This is information about car or bike in NCCS.
+car or bike,Is car parking allowed?,This is information about car or bike in NCCS.
+car or bike,Can I ride my bike to college?,This is information about car or bike in NCCS.
+car or bike,Is vehicle entry allowed?,This is information about car or bike in NCCS.
+car or bike,Any parking space for car?,This is information about car or bike in NCCS.
+car or bike,Is there two-wheeler parking?,This is information about car or bike in NCCS.
+car or bike,Is four-wheeler allowed?,This is information about car or bike in NCCS.
+transportation,Does NCCS have transportation?,This is information about transportation in NCCS.
+transportation,Is there a college bus?,This is information about transportation in NCCS.
+transportation,College transportation system?,This is information about transportation in NCCS.
+transportation,How do students commute?,This is information about transportation in NCCS.
+transportation,Is transportation facility provided?,This is information about transportation in NCCS.
+transportation,Does NCCS offer travel support?,This is information about transportation in NCCS.
+transportation,Transport service from NCCS?,This is information about transportation in NCCS.
+transportation,Any bus for students?,This is information about transportation in NCCS.
+transportation,How to reach NCCS daily?,This is information about transportation in NCCS.
+transportation,Transport options in NCCS?,This is information about transportation in NCCS.
+parking,Is there parking in NCCS?,This is information about parking in NCCS.
+parking,Does NCCS have parking?,This is information about parking in NCCS.
+parking,Where can I park at NCCS?,This is information about parking in NCCS.
+parking,Bike parking area?,This is information about parking in NCCS.
+parking,Car parking space?,This is information about parking in NCCS.
+parking,Is vehicle parking available?,This is information about parking in NCCS.
+parking,Do students get parking?,This is information about parking in NCCS.
+parking,College parking slots?,This is information about parking in NCCS.
+parking,Safe parking for bike?,This is information about parking in NCCS.
+parking,Four wheeler parking in NCCS?,This is information about parking in NCCS.
+safe,Is NCCS safe?,This is information about safe in NCCS.
+safe,How safe is the college?,This is information about safe in NCCS.
+safe,Is the environment secure?,This is information about safe in NCCS.
+safe,Is NCCS safe for girls?,This is information about safe in NCCS.
+safe,Is there ragging in NCCS?,This is information about safe in NCCS.
+safe,Campus safety status?,This is information about safe in NCCS.
+safe,College security level?,This is information about safe in NCCS.
+safe,Is it safe late evening?,This is information about safe in NCCS.
+safe,Security measures in NCCS?,This is information about safe in NCCS.
+safe,How safe is NCCS?,This is information about safe in NCCS.
+guards,Does NCCS have guards?,This is information about guards in NCCS.
+guards,Are there security guards?,This is information about guards in NCCS.
+guards,Is the college protected?,This is information about guards in NCCS.
+guards,How many guards in NCCS?,This is information about guards in NCCS.
+guards,Security in the gate?,This is information about guards in NCCS.
+guards,Do they check ID at entrance?,This is information about guards in NCCS.
+guards,Guards at NCCS?,This is information about guards in NCCS.
+guards,College gate security?,This is information about guards in NCCS.
+guards,Is there night guard?,This is information about guards in NCCS.
+guards,Is NCCS guarded?,This is information about guards in NCCS.
+wifi,Does NCCS have Wi-Fi?,This is information about wifi in NCCS.
+wifi,Is internet available?,This is information about wifi in NCCS.
+wifi,Wi-Fi for students?,This is information about wifi in NCCS.
+wifi,College internet facility?,This is information about wifi in NCCS.
+wifi,Free Wi-Fi in campus?,This is information about wifi in NCCS.
+wifi,Wi-Fi in classrooms?,This is information about wifi in NCCS.
+wifi,Can I access internet in NCCS?,This is information about wifi in NCCS.
+wifi,Wi-Fi network name?,This is information about wifi in NCCS.
+wifi,Speed of Wi-Fi?,This is information about wifi in NCCS.
+wifi,NCCS Wi-Fi password?,This is information about wifi in NCCS.
+printing,Does NCCS provide printing?,This is information about printing in NCCS.
+printing,Can I print in college?,This is information about printing in NCCS.
+printing,Where to print documents?,This is information about printing in NCCS.
+printing,Is there a printer?,This is information about printing in NCCS.
+printing,Do students have access to printing?,This is information about printing in NCCS.
+printing,Photocopy center in NCCS?,This is information about printing in NCCS.
+printing,Print facility in college?,This is information about printing in NCCS.
+printing,Can I photocopy in NCCS?,This is information about printing in NCCS.
+printing,Where is the printer?,This is information about printing in NCCS.
+printing,College printer availability?,This is information about printing in NCCS.
+college time,What are the college timings?,This is information about college time in NCCS.
+college time,What time does NCCS start?,This is information about college time in NCCS.
+college time,When does college open?,This is information about college time in NCCS.
+college time,College schedule?,This is information about college time in NCCS.
+college time,Daily class time?,This is information about college time in NCCS.
+college time,What is the NCCS routine?,This is information about college time in NCCS.
+college time,What time classes begin?,This is information about college time in NCCS.
+college time,NCCS morning shift?,This is information about college time in NCCS.
+college time,College start and end time?,This is information about college time in NCCS.
+college time,Class timing in NCCS?,This is information about college time in NCCS.
+vaccations,Do we get vacations?,This is information about vaccations in NCCS.
+vaccations,When are the holidays?,This is information about vaccations in NCCS.
+vaccations,Is NCCS closed on Saturday?,This is information about vaccations in NCCS.
+vaccations,What are the breaks in NCCS?,This is information about vaccations in NCCS.
+vaccations,Winter break in NCCS?,This is information about vaccations in NCCS.
+vaccations,Summer vacation?,This is information about vaccations in NCCS.
+vaccations,Public holidays list?,This is information about vaccations in NCCS.
+vaccations,When is college off?,This is information about vaccations in NCCS.
+vaccations,Holiday calendar?,This is information about vaccations in NCCS.
+vaccations,NCCS vacation dates?,This is information about vaccations in NCCS.
+library,Does NCCS have a library?,This is information about library in NCCS.
+library,Library in college?,This is information about library in NCCS.
+library,Where is the library?,This is information about library in NCCS.
+library,Can I borrow books?,This is information about library in NCCS.
+library,Study in the library?,This is information about library in NCCS.
+library,Library timing?,This is information about library in NCCS.
+library,NCCS book collection?,This is information about library in NCCS.
+library,How to access library?,This is information about library in NCCS.
+library,Is it open on weekend?,This is information about library in NCCS.
+library,Rules for library?,This is information about library in NCCS.

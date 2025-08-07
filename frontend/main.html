@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NCCS College</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.nccs.edu.np/images/college.png"
+      type="image/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Montserrat", Arial, sans-serif;
+        background: #f4f8fb;
+        color: #232b38;
+      }
+      .project {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.2rem 4vw;
+        background: #093c73;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+      }
+      .logo img {
+        height: 60px;
+      }
+      .navbar,
+      .navbar2 {
+        display: flex;
+        list-style: none;
+        gap: 2.5rem;
+      }
+      .navbar li,
+      .navbar2 li {
+        position: relative;
+      }
+      .navbar a,
+      .navbar2 a {
+        text-decoration: none;
+        color: #f9fafb;
+        font-size: 1.08rem;
+        font-weight: 500;
+        padding: 8px 16px;
+        transition: color 0.2s;
+      }
+      .navbar a:hover,
+      .navbar2 a:hover {
+        color: #ffd600;
+      }
+      .sub-drop,
+      .drop-faculty {
+        position: absolute;
+        left: 0;
+        top: 110%;
+        background: #fff;
+        color: #093c73;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0 6px 24px rgba(9, 60, 115, 0.15);
+        display: none;
+        min-width: 180px;
+        z-index: 100;
+        padding: 0;
+      }
+      .academic-drop:hover .drop-faculty,
+      .academic-drop:focus-within .drop-faculty,
+      .about-drop:hover .sub-drop,
+      .about-drop:focus-within .sub-drop {
+        display: block;
+      }
+      /*.about-drop:hover .sub-drop,
+      .academic-drop:hover .drop-faculty {
+        display: block;
+      }*/
+      .sub-drop li,
+      .drop-faculty li {
+        padding: 10px 20px;
+      }
+      .sub-drop li a,
+      .drop-faculty li a {
+        color: #093c73;
+        font-weight: 400;
+        font-size: 1rem;
+      }
+      .sub-drop li a:hover,
+      .drop-faculty li a:hover {
+        color: #ffd600;
+      }
+
+      .hero {
+        background: url("https://nccs.edu.np/images/college/building.jpg")
+          center/cover no-repeat;
+        height: 55vh;
+        min-height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(9, 60, 115, 0.47);
+        z-index: 1;
+      }
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        color: #fff;
+      }
+      .hero-content h1 {
+        font-size: 2.7rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 16px;
+      }
+      .hero-content p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .main-content {
+        max-width: 1050px;
+        margin: 40px auto 0;
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 8px 32px rgba(9, 60, 115, 0.07);
+        padding: 38px 30px;
+      }
+      .main-content h2 {
+        font-size: 2.1rem;
+        margin: 24px 0 10px;
+        color: #093c73;
+      }
+      .main-content p {
+        font-size: 1.08rem;
+        color: #333;
+        line-height: 1.7;
+      }
+
+      .activities,
+      .results {
+        text-align: center;
+        color: #093c73;
+        margin-top: 38px;
+      }
+      .destination-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 28px;
+        margin-top: 24px;
+        margin-bottom: 18px;
+      }
+      .destination-item {
+        background: #f9fafc;
+        border-radius: 13px;
+        box-shadow: 0 2px 12px rgba(9, 60, 115, 0.08);
+        overflow: hidden;
+        transition: transform 0.2s;
+      }
+      .destination-item:hover {
+        transform: translateY(-7px) scale(1.025);
+      }
+      .destination-item img {
+        width: 100%;
+        height: 175px;
+        object-fit: cover;
+      }
+      .destination-item h2 {
+        color: #093c73;
+        font-size: 1.23rem;
+        margin: 13px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 28px;
+        margin-top: 18px;
+      }
+      .container img {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 2px 16px rgba(9, 60, 115, 0.08);
+        object-fit: cover;
+        min-height: 230px;
+        max-height: 320px;
+      }
+      @media (max-width: 900px) {
+        .main-content {
+          padding: 18px 8vw;
+        }
+        .project {
+          flex-direction: column;
+          gap: 1.2rem;
+        }
+        .hero-content h1 {
+          font-size: 2rem;
+        }
+        .hero {
+          min-height: 220px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="project">
+      <div class="logo">
+        <img src="https://www.nccs.edu.np/images/college.png" alt="NCCS Logo" />
+      </div>
+      <ul class="navbar">
+        <li class="about-drop">
+          <a href="#">About</a>
+          <ul class="sub-drop">
+            <li>
+              <a href="introduction.html" target="_blank">Introduction</a>
+            </li>
+            <li>
+              <a href="message.html" target="_blank">Message from Principal</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="facilities.html" target="_blank">Facilities</a></li>
+        <li class="academic-drop">
+          <a href="#">Academics</a>
+          <ul class="drop-faculty">
+            <li><a href="bim.html" target="_blank">BIM</a></li>
+            <li><a href="bsc.csit.html" target="_blank">BSc.CSIT</a></li>
+            <li><a href="bca.html" target="_blank">BCA</a></li>
+          </ul>
+        </li>
+        <li><a href="contactus.html" target="_blank">Contact</a></li>
+      </ul>
+      <ul class="navbar2">
+        <li><a href="fillform.html" target="_blank">Fill Form</a></li>
+      </ul>
+    </div>
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Welcome to NCCS</h1>
+        <p>
+          National College of Computer Studies (NCCS), college of IT and
+          Management, is a highly professional and experienced college based in
+          Kathmandu which was established in 1999. It educates all students not
+          only to face the challenges of the fast-moving industry but also to
+          perform exceedingly well. NCCS is fully dedicated to providing a
+          quality university curriculum, affiliated with Tribhuvan University.
+        </p>
+      </div>
+    </div>
+    <div class="main-content">
+      <h2>About NCCS</h2>
+      <p>
+        It comprises of multitalented professionals considered among the best in
+        the industry. NCCS offers a range of programs including Bachelor of
+        Information Management, Bachelor of Hotel Management, Bachelor of
+        Science in Computer Science and Information Technology, Bachelor of
+        Business Management, and Bachelor of Computer Application.
+      </p>
+
+      <h2 class="activities">Our Activities</h2>
+      <div class="destination-grid">
+        <div class="destination-item">
+          <img
+            src="https://media.edusanjal.com/gallery/NCCS_Cultural_Fiesta4.jpg"
+            alt="NCCS Cultural Fiesta"
+          />
+          <h2>NCCS Cultural Fiesta</h2>
+        </div>
+        <div class="destination-item">
+          <img
+            src="https://nccs.edu.np/images/college/slide/4.jpg"
+            alt="NCCS Sports"
+          />
+          <h2>NCCS Sports</h2>
+        </div>
+        <div class="destination-item">
+          <img
+            src="https://nccs.edu.np/images/college/slide/4.jpg"
+            alt="NCCS Seminars"
+          />
+          <h2>NCCS Seminars</h2>
+        </div>
+      </div>
+
+      <h2 class="results">Our Results</h2>
+      <div class="container">
+        <div class="demo1">
+          <img
+            src="https://nccs.edu.np/images/college/topperbim.jpg"
+            alt="Topper BIM"
+          />
+        </div>
+        <div class="demo2">
+          <img
+            src="https://nccs.edu.np/images/college/topperbhm.jpg"
+            alt="Topper BHM"
+          />
+        </div>
+        <div class="demo3">
+          <img
+            src="https://nccs.edu.np/images/college/toppercsit.jpg"
+            alt="Topper CSIT"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
