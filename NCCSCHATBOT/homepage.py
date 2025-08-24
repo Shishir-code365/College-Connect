@@ -181,8 +181,37 @@ else:
     model.save(model_path)
     print("Model trained and saved.")
 
-@app.route('/', methods=['GET', 'POST'])
-def homepage():
+# @app.route('/', methods=['GET', 'POST'])
+# def homepage():
+#     chatbot_response = ""
+#     user_query = ""
+#     if request.method == 'POST':
+#         user_query = request.form['user_query']
+#         user_sequence = tokenizer.texts_to_sequences([user_query])
+#         if not user_sequence or not user_sequence[0]:
+#             chatbot_response = "Sorry, I didn't understand that. Can you please rephrase?"
+#         else:
+#             padded_user_sequence = pad_sequences(user_sequence, maxlen=max_length, padding=padding_type, truncating=truncating_type)
+#             prediction = model.predict(padded_user_sequence, verbose=0)
+#             tag_index = np.argmax(prediction)
+#             tag = label_encoder.inverse_transform([tag_index])[0]
+#             response_df = df[df['tag'] == tag]
+#             if not response_df.empty:
+#                 chatbot_response = response_df.sample(n=1)['response'].values[0]
+#             else:
+#                 chatbot_response = "Sorry, I don't have an answer for that."
+#             tts = gTTS(chatbot_response, lang='en')
+#             tts.save("static/response.mp3")
+#     return render_template('index.html', user_query=user_query, chatbot_response=chatbot_response)
+@app.route('/guest', methods=['GET', 'POST'])
+def guest_homepage():
+    return handle_chat('index_guest.html')
+
+@app.route('/user', methods=['GET', 'POST'])
+def user_homepage():
+    return handle_chat('index_user.html')
+
+def handle_chat(template_name):
     chatbot_response = ""
     user_query = ""
     if request.method == 'POST':
@@ -191,7 +220,9 @@ def homepage():
         if not user_sequence or not user_sequence[0]:
             chatbot_response = "Sorry, I didn't understand that. Can you please rephrase?"
         else:
-            padded_user_sequence = pad_sequences(user_sequence, maxlen=max_length, padding=padding_type, truncating=truncating_type)
+            padded_user_sequence = pad_sequences(
+                user_sequence, maxlen=max_length, padding=padding_type, truncating=truncating_type
+            )
             prediction = model.predict(padded_user_sequence, verbose=0)
             tag_index = np.argmax(prediction)
             tag = label_encoder.inverse_transform([tag_index])[0]
@@ -202,7 +233,8 @@ def homepage():
                 chatbot_response = "Sorry, I don't have an answer for that."
             tts = gTTS(chatbot_response, lang='en')
             tts.save("static/response.mp3")
-    return render_template('index.html', user_query=user_query, chatbot_response=chatbot_response)
+    return render_template(template_name, user_query=user_query, chatbot_response=chatbot_response)
+
 
 @app.route('/play_response')
 def play_response():

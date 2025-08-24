@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>College Chatbot (Guest)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <style>
+    body { font-family: "Poppins", sans-serif; background: linear-gradient(135deg,#667eea,#764ba2); height: 100vh; display:flex; align-items:center; justify-content:center; margin:0; }
+    .chat-container { background:#fff; border-radius:20px; box-shadow:0 20px 50px rgba(0,0,0,0.1); padding:30px; max-width:700px; width:100%; }
+    h1 { font-weight:600; font-size:28px; color:#333; margin-bottom:25px; text-align:center; }
+    .textfield { width:100%; padding:15px; border:none; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1); font-size:16px; margin-bottom:20px; }
+    .button { width:100%; padding:15px; background:#5e72e4; border:none; border-radius:8px; color:#fff; font-weight:bold; }
+    .button:hover { background:#324cdd; }
+    .chat-bubble { background:#f0f4ff; padding:15px; border-radius:15px; margin:10px 0; font-size:15px; position:relative; }
+    .chat-bubble.user { background:#d6e0ff; text-align:right; }
+    .chat-bubble.bot { background:#eef3ff; text-align:left; }
+    .speaker-icon { position:absolute; bottom:10px; right:15px; cursor:pointer; }
+    .back { display:block; text-align:center; margin-top:12px; }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <h1>🎓 College Chatbot</h1>
+
+    <form method="POST">
+      <input type="text" name="user_query" class="textfield" placeholder="Ask me anything about NCCS..." required/>
+      <button type="submit" class="button">Ask</button>
+      <a class="back" href="http://localhost/Project-7th/frontend/main.html">Go Back to Main Site</a>
+    </form>
+
+    {% if user_query %}
+      <div class="chat-bubble user"><strong>You:</strong> {{ user_query }}</div>
+      <div class="chat-bubble bot">
+        <strong>Chatbot:</strong> {{ chatbot_response }}
+        <span class="speaker-icon">
+          <img src="{{ url_for('static', filename='speaker.png') }}" width="24" onclick="playResponseAudio()" alt="Play audio"/>
+        </span>
+      </div>
+    {% endif %}
+  </div>
+
+  <script>
+    function playResponseAudio() {
+      var audio = new Audio("/play_response?ts=" + new Date().getTime());
+      audio.play();
+    }
+  </script>
+</body>
+</html>

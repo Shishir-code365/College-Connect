@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSc.CSIT | NCCS College</title>
+    <link rel="shortcut icon" href="https://www.nccs.edu.np/images/college.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: #f4f8fb;
+            color: #232b38;
+        }
+
+        .project {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.2rem 4vw;
+            background: #093c73;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .logo img {
+            height: 60px;
+        }
+
+        .navbar,
+        .navbar2 {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+
+        .navbar li,
+        .navbar2 li {
+            position: relative;
+        }
+
+        .navbar a,
+        .navbar2 a {
+            text-decoration: none;
+            color: #f9fafb;
+            font-size: 1.08rem;
+            font-weight: 500;
+            padding: 8px 16px;
+            transition: color .2s;
+        }
+
+        .navbar a:hover,
+        .navbar2 a:hover {
+            color: #ffd600;
+        }
+
+        .sub-drop,
+        .drop-faculty {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background: #fff;
+            color: #093c73;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 6px 24px rgba(9, 60, 115, 0.15);
+            display: none;
+            min-width: 180px;
+            z-index: 100;
+        }
+
+        .about-drop:hover .sub-drop,
+        .academic-drop:hover .drop-faculty {
+            display: block;
+        }
+
+        .sub-drop li,
+        .drop-faculty li {
+            padding: 10px 20px;
+        }
+
+        .sub-drop li a,
+        .drop-faculty li a {
+            color: #093c73;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+
+        .sub-drop li a:hover,
+        .drop-faculty li a:hover {
+            color: #ffd600;
+        }
+
+        .main-content {
+            max-width: 1100px;
+            margin: 40px auto 0;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(9, 60, 115, 0.07);
+            padding: 38px 30px;
+        }
+
+        h1,
+        h2 {
+            color: #093c73;
+        }
+
+        h1 {
+            font-size: 2.1rem;
+            margin-bottom: 18px;
+        }
+
+        h2 {
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin: 10px 0 10px 25px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 12px 0 28px 0;
+            width: 98%;
+        }
+
+        th,
+        td {
+            border: 1px solid #e1e6ee;
+            padding: 10px 14px;
+            text-align: left;
+        }
+
+        th {
+            background: #eaf0fb;
+            color: #093c73;
+        }
+
+        .program-img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 2px 12px rgba(9, 60, 115, 0.10);
+            margin-bottom: 24px;
+        }
+
+        .program-flex {
+            display: flex;
+            gap: 42px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        .program-desc {
+            flex: 2;
+        }
+
+        .program-side {
+            flex: 1;
+            min-width: 230px;
+        }
+
+        .grid-tables {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 20px;
+        }
+
+        .sub-drop:hover {
+            display: block;
+        }
+
+        .drop-faculty:hover {
+            display: block;
+        }
+
+
+        @media (max-width: 900px) {
+            .main-content {
+                padding: 18px 3vw;
+            }
+
+            .project {
+                flex-direction: column;
+                gap: 1.2rem;
+            }
+
+            .program-flex {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .grid-tables {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="project">
+        <div class="logo">
+            <img src="https://www.nccs.edu.np/images/college.png" alt="NCCS Logo">
+        </div>
+        <ul class="navbar">
+            <li class="about-drop"><a href="#">About</a>
+                <ul class="sub-drop">
+                    <li><a href="introduction.php">Introduction</a></li>
+                    <li><a href="message.php">Message from Principal</a></li>
+                </ul>
+            </li>
+            <li><a href="facilities.php">Facilities</a></li>
+            <li class="academic-drop"><a href="#">Academics</a>
+                <ul class="drop-faculty">
+                    <li><a href="bim.php">BIM</a></li>
+                    <li><a href="bsc.csit.php">BSc.CSIT</a></li>
+                    <li><a href="bca.php">BCA</a></li>
+                </ul>
+            </li>
+            <li><a href="contactus.php">Contact</a></li>
+            <li><a href="user_dash.php">Dashboard</a></li>
+            <li><a href="../backend/logout.php">Logout</a></li>
+
+        </ul>
+        <ul class="navbar2">
+            <li><a href="fillform.php">Fill Form</a></li>
+        </ul>
+    </div> -->
+    <h1>Bachelor of Science in Computer Science and Information Technology (BSc.CSIT)</h1>
+    <div class="program-flex">
+        <div class="program-side">
+            <img src="https://nccs.edu.np/images/college/bsccsit.jpg" class="program-img" alt="BSc.CSIT NCCS">
+        </div>
+        <div class="program-desc">
+            <h2>Introduction</h2>
+            <p>Bachelor of Science in Computer Science and Information Technology (BSc.CSIT), affiliated to TU, is a four-year degree combining IT and computer courses. It features both lectures and practical project work and prepares students for careers as computer professionals and IT managers.</p>
+            <h2>Program's Objectives</h2>
+            <ul>
+                <li>Offer intensive knowledge in theory, design, programming, and application of computers.</li>
+                <li>Provide knowledge of hardware and software systems.</li>
+            </ul>
+            <h2>Eligibility Conditions for Admission</h2>
+            <ul>
+                <li>12-years schooling/PCL in science or equivalent, recognized by Tribhuvan University.</li>
+                <li>Must pass the entrance test conducted by the Institute of Science and Technology (ISOT-TU) with at least 35%.</li>
+                <li>At least second division in 10+2/PCL/equivalent program and all procedures completed.</li>
+            </ul>
+        </div>
+    </div>
+    <h2>Course Cycle</h2>
+    <div class="grid-tables">
+        <table>
+            <tr>
+                <th>First Semester</th>
+            </tr>
+            <tr>
+                <td>CSC109 Introduction to Information Technology</td>
+            </tr>
+            <tr>
+                <td>CSC110 C Programming</td>
+            </tr>
+            <tr>
+                <td>CSC111 Digital Logic</td>
+            </tr>
+            <tr>
+                <td>MTH112 Mathematics I</td>
+            </tr>
+            <tr>
+                <td>PHY113 Physics</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Second Semester</th>
+            </tr>
+            <tr>
+                <td>CSC160 Discrete Structure</td>
+            </tr>
+            <tr>
+                <td>CSC161 Object Oriented Programming</td>
+            </tr>
+            <tr>
+                <td>CSC162 Microprocessor</td>
+            </tr>
+            <tr>
+                <td>MTH163 Mathematics II</td>
+            </tr>
+            <tr>
+                <td>STA164 Statistics I</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Third Semester</th>
+            </tr>
+            <tr>
+                <td>CSC206 Data Structure and Algorithms</td>
+            </tr>
+            <tr>
+                <td>CSC207 Numerical Method</td>
+            </tr>
+            <tr>
+                <td>CSC208 Computer Architecture</td>
+            </tr>
+            <tr>
+                <td>CSC209 Computer Graphics</td>
+            </tr>
+            <tr>
+                <td>STA210 Statistics II</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Fourth Semester</th>
+            </tr>
+            <tr>
+                <td>CSC257 Theory of Computation</td>
+            </tr>
+            <tr>
+                <td>CSC258 Computer Networks</td>
+            </tr>
+            <tr>
+                <td>SC259 Operating Systems</td>
+            </tr>
+            <tr>
+                <td>CSC260 Database Management System</td>
+            </tr>
+            <tr>
+                <td>CSC261 Artificial Intelligence</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Fifth Semester</th>
+            </tr>
+            <tr>
+                <td>CSC314 Design and Analysis of Algorithms</td>
+            </tr>
+            <tr>
+                <td>CSC315 System Analysis and Design</td>
+            </tr>
+            <tr>
+                <td>CSC316 Cryptography</td>
+            </tr>
+            <tr>
+                <td>CSC317 Simulation and Modeling</td>
+            </tr>
+            <tr>
+                <td>CSC318 Web Technology</td>
+            </tr>
+            <tr>
+                <td><i>Elective I (Any one of the following)</i></td>
+            </tr>
+            <tr>
+                <td>CSC319 Multimedia Computing</td>
+            </tr>
+            <tr>
+                <td>CSC320 Wireless Networking</td>
+            </tr>
+            <tr>
+                <td>CSC321 Image Processing</td>
+            </tr>
+            <tr>
+                <td>CSC322 Knowledge Management</td>
+            </tr>
+            <tr>
+                <td>CSC323 Society and Ethics in IT</td>
+            </tr>
+            <tr>
+                <td>CSC324 Microprocessor Based Design</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Sixth Semester</th>
+            </tr>
+            <tr>
+                <td>CSC364 Software Engineering</td>
+            </tr>
+            <tr>
+                <td>CSC365 Compiler Design</td>
+            </tr>
+            <tr>
+                <td>CSC366 E-Governance</td>
+            </tr>
+            <tr>
+                <td>CSC367 NET Centric Computing</td>
+            </tr>
+            <tr>
+                <td>CSC368 Technical Writing</td>
+            </tr>
+            <tr>
+                <td><i>Elective II (Any one of the following)</i></td>
+            </tr>
+            <tr>
+                <td>CSC369 Applied Logic</td>
+            </tr>
+            <tr>
+                <td>CSC370 E-commerce</td>
+            </tr>
+            <tr>
+                <td>CSC371 Automation and Robotics</td>
+            </tr>
+            <tr>
+                <td>CSC372 Neural Networks</td>
+            </tr>
+            <tr>
+                <td>CSC373 Computer Hardware Design</td>
+            </tr>
+            <tr>
+                <td>CSC374 Cognitive Science</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Seventh Semester</th>
+            </tr>
+            <tr>
+                <td>CSC409 Advanced Java Programming</td>
+            </tr>
+            <tr>
+                <td>CSC410 Data Warehousing & Data Mining</td>
+            </tr>
+            <tr>
+                <td>MGT411 Principles of Management</td>
+            </tr>
+            <tr>
+                <td>CSC412 Project Work</td>
+            </tr>
+            <tr>
+                <td><i>Elective III (Any one of the following)</i></td>
+            </tr>
+            <tr>
+                <td>CSC413 Information Retrieval</td>
+            </tr>
+            <tr>
+                <td>CSC414 Database Administration</td>
+            </tr>
+            <tr>
+                <td>CSC415 Software Project Management</td>
+            </tr>
+            <tr>
+                <td>CSC416 Network Security</td>
+            </tr>
+            <tr>
+                <td>CSC417 Digital System Design</td>
+            </tr>
+            <tr>
+                <td>MGT418 International Marketing</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Eight Semester</th>
+            </tr>
+            <tr>
+                <td>CSC461 Advanced Database</td>
+            </tr>
+            <tr>
+                <td>CSC462 Internship 6</td>
+            </tr>
+            <tr>
+                <td><i>Elective IV/V (Any one of the following)</i></td>
+            </tr>
+            <tr>
+                <td>CSC463 Advanced Networking with IPV6</td>
+            </tr>
+            <tr>
+                <td>CSC464 Distributed Networking</td>
+            </tr>
+            <tr>
+                <td>CSC465 Game Technology</td>
+            </tr>
+            <tr>
+                <td>CSC466 Distributed & Object Oriented DB</td>
+            </tr>
+            <tr>
+                <td>CSC467 Cloud Computing</td>
+            </tr>
+            <tr>
+                <td>CSC468 GIS</td>
+            </tr>
+            <tr>
+                <td>CSC469 DSS and Expert System</td>
+            </tr>
+            <tr>
+                <td>CSC470 Mobile Application Dev</td>
+            </tr>
+            <tr>
+                <td>CSC471 Real Time Systems</td>
+            </tr>
+            <tr>
+                <td>CSC472 Network & System Admin</td>
+            </tr>
+            <tr>
+                <td>CSC473 Embedded Systems Programming</td>
+            </tr>
+            <tr>
+                <td>MGT474 International Business Mgmt</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

@@ -108,6 +108,8 @@
                 </ul>
             </li>
             <li><a href="contactus.html" target="_blank">Contact</a></li>
+             <li>  <a href="../backend/login.php" style="color: white; margin-right: 10px; text-decoration: none;">Login</a>
+  <a href="../backend/register.php" style="color: white; text-decoration: none;">Register</a></li>
         </ul>
         <ul class="navbar2">
             <li><a href="fillform.html" target="_blank">Fill Form</a></li>
@@ -172,5 +174,54 @@
             </div>
         </div>
     </div>
+    <a href="http://localhost:5000/guest" id="chatbot-icon" title="Chat with us!">
+  <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Chatbot" />
+</a>
+
+<style>
+#chatbot-icon {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  z-index: 9999;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+    animation: heartbeat 1.5s infinite;
+}
+
+#chatbot-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#chatbot-icon:hover {
+  transform: scale(1.1);
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(1.3);
+  }
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.3);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }}
+</style>
 </body>
+
 </html>
