@@ -29,8 +29,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['form_id'], $_POST['ac
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'dhakal.shishir2059@gmail.com'; // your Gmail
-            $mail->Password   = 'fviz hiqn vwag ypek';   // Gmail App Password
+            $mail->Username   = ''; // your Gmail
+            $mail->Password   = '';   // Gmail App Password
             $mail->SMTPSecure = 'tls';
             $mail->Port       = 587;
 

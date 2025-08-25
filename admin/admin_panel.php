@@ -43,6 +43,13 @@ $feedbacks = mysqli_query($con, "
 $users = mysqli_query($con, "SELECT * FROM user ORDER BY id DESC");
 ?>
 
+<?php if (isset($_SESSION['status_msg'])): ?>
+    <script>
+        alert('<?php echo $_SESSION['status_msg'];
+                unset($_SESSION['status_msg']); ?>');
+    </script>
+<?php endif; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
